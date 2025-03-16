@@ -1,0 +1,78 @@
+.subMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #F7F6F5;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0px 1px 3px 0px #00000008;
+    .subMenuHeader {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .packageLinks {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .packages {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+   
+    
+
+    .submenuItem {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+    }
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 16px;
+      flex-direction: row;
+      .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 7px;
+      }
+      h4 {
+        font-weight: 400;
+      }
+    }
+  } 
+
+
+  .menuList {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    li {
+      display: flex;
+      align-items: center;
+    }
+   }
+
+   .mobileMenu {
+    width: 100%;
+    padding: 20px;
+   }

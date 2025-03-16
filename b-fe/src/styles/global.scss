@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Gorditas",sans-serif;
+    src: url("/fonts/Gorditas-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: unset;
+  background-color: #F7F6F5;
+}
+
+main {
+  margin-top: 80px;
+
+    padding: unset !important;
+  
+}
+
+.MuiOutlinedInput-root {
+  
+  fieldset {
+    border-color: black !important;
+    border-radius: 8px !important;
+  }
+
+  &:hover fieldset {
+    border-color: black !important;
+    border-radius: 8px !important;
+  }
+
+  &.Mui-focused fieldset {
+    border-color: black !important;
+    border-radius: 8px !important;
+  }
+}
+
+.MuiInputLabel-root {
+  color: black !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: black !important; 
+}
