@@ -1,0 +1,16 @@
+export const productIcons: Record<string, string> = {
+    "beije Ped": "/images/frame.svg",
+    "Standard Ped": "/images/süperb22.svg",
+    "Süper Plas Ped": "/images/süperb22.svg",
+    "Süper Ped": "/images/süperb22.svg",
+    "Beije Günlük Ped": "/images/gunluk.svg",
+    "beije Tampon": "/images/tampon.svg",
+    "Mini Tapmon": "/images/süper tampon.svg",
+    "Standard Tampon": "/images/süper tampon.svg",
+    "Süper Tampon": "/images/süper tampon.svg",
+    "Süper Kap": "/images/süper.svg",
+    "Standard Kap": "/images/süper tampon.svg",
+    "2li Paket": "/images/süper tampon.svg",
+    "4li Paket": "/images/süperb.svg",
+    "Supplement": "/images/süper22.svg",
+};
