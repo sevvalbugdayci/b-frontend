@@ -31,6 +31,7 @@ Axios (HTTP İstekleri)
 
 Projeyi klonladıktan sonra:
 ```sh
-git clone https://github.com/kullanici-adi/beije-frontend.git
-cd beije-frontend
+git clone https://github.com/kullanici-adi/b-frontend.git
+cd b-fe
 npm install
+npm run start && npm run test
